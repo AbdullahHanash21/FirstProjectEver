@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROJECTS\\LIBRARY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|d:\\projects\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|d:\\projects\\library\\library\\controllers\\book_typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\controllers\\book_typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|d:\\projects\\library\\library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|d:\\projects\\library\\library\\migrations\\20251127174741_dassa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\migrations\\20251127174741_dassa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20251127174741_dassa.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "ToolTip": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "RelativeToolTip": "LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:47:41.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LIBRARY\\Controllers\\BookController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAEwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:03:56.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book_TypeController.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Controllers\\Book_TypeController.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Controllers\\Book_TypeController.cs",
+              "ToolTip": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Controllers\\Book_TypeController.cs",
+              "RelativeToolTip": "LIBRARY\\Controllers\\Book_TypeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T19:57:12.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Program.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Program.cs",
+              "ToolTip": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\Program.cs",
+              "RelativeToolTip": "LIBRARY\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAC3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:59:04.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

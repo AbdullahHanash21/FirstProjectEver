@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\cmder\\vendor\\sources.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|c:\\users\\abdullah hanash\\downloads\\my-github\\firstprojectever\\library\\library\\controllers\\book_typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\controllers\\book_typecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|c:\\users\\abdullah hanash\\downloads\\my-github\\firstprojectever\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|c:\\users\\abdullah hanash\\downloads\\my-github\\firstprojectever\\library\\library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|c:\\users\\abdullah hanash\\downloads\\my-github\\firstprojectever\\library\\library\\migrations\\20251127174741_dassa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D32E270C-7028-7BD8-792D-C69059A28440}|LIBRARY\\LIBRARY.csproj|solutionrelative:library\\migrations\\20251127174741_dassa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "sources.json",
+              "DocumentMoniker": "C:\\Program Files\\cmder\\vendor\\sources.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\cmder\\vendor\\sources.json",
+              "ToolTip": "C:\\Program Files\\cmder\\vendor\\sources.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\cmder\\vendor\\sources.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-28T16:39:52.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251127174741_dassa.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "ToolTip": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "RelativeToolTip": "LIBRARY\\Migrations\\20251127174741_dassa.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T17:47:41.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Controllers\\BookController.cs",
+              "RelativeToolTip": "LIBRARY\\Controllers\\BookController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAEwCsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T16:03:56.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book_TypeController.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Controllers\\Book_TypeController.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Controllers\\Book_TypeController.cs",
+              "ToolTip": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Controllers\\Book_TypeController.cs",
+              "RelativeToolTip": "LIBRARY\\Controllers\\Book_TypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T19:57:12.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Program.cs",
+              "RelativeDocumentMoniker": "LIBRARY\\Program.cs",
+              "ToolTip": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\Program.cs",
+              "RelativeToolTip": "LIBRARY\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAC3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T13:59:04.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
