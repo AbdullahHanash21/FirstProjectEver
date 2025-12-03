@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJECTS\\LIBRARY\\LIBRARY\\LIBRARY.csproj": {}
+    "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\LIBRARY.csproj": {}
   },
   "projects": {
-    "D:\\PROJECTS\\LIBRARY\\LIBRARY\\LIBRARY.csproj": {
+    "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\LIBRARY.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\LIBRARY.csproj",
+        "projectUniqueName": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\LIBRARY.csproj",
         "projectName": "LIBRARY",
-        "projectPath": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\LIBRARY.csproj",
+        "projectPath": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\LIBRARY.csproj",
         "packagesPath": "C:\\Users\\ABDULLAH HANASH\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECTS\\LIBRARY\\LIBRARY\\obj\\",
+        "outputPath": "C:\\Users\\ABDULLAH HANASH\\Downloads\\My-GitHub\\FirstProjectEver\\LIBRARY\\LIBRARY\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.11, )"
@@ -75,6 +79,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.15.0, )"
             }
           },
           "imports": [

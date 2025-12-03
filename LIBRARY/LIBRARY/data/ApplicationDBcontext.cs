@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using LIBRARY.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace LIBRARY.data
 {
@@ -15,5 +16,7 @@ namespace LIBRARY.data
         }
         public DbSet<Book_Type> BookTypes { get; set; }
         public DbSet<Book> Books { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }

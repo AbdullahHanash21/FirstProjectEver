@@ -1,4 +1,5 @@
 ﻿using LIBRARY.data;
+using LIBRARY.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LIBRARY.Controllers

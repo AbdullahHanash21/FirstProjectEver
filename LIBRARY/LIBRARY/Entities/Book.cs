@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace LIBRARY.data
+namespace LIBRARY.Entities
 {
     public class Book
     {

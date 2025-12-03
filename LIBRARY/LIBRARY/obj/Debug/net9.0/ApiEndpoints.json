@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.data.Book, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.Entities.Book, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "book",
-        "Type": "LIBRARY.data.Book",
+        "Type": "LIBRARY.Entities.Book",
         "IsRequired": true
       }
     ],
@@ -45,13 +45,13 @@
     "Parameters": [
       {
         "Name": "book",
-        "Type": "LIBRARY.data.Book",
+        "Type": "LIBRARY.Entities.Book",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.data.Book, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.Entities.Book, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -78,6 +78,104 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "JwtAuthDotNet9.Controllers.AuthController",
+    "Method": "AuthenticatedOnlyEndpoint",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthDotNet9.Controllers.AuthController",
+    "Method": "AdminOnlyEndpoint",
+    "RelativePath": "api/Auth/admin-only",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "JwtAuthDotNet9.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LIBRARY.Models.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LIBRARY.Models.TokenResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JwtAuthDotNet9.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LIBRARY.Models.RefreshTokenRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LIBRARY.Models.TokenResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "JwtAuthDotNet9.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LIBRARY.Models.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "LIBRARY.Entities.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "LIBRARY.Controllers.Book_TypeController",
     "Method": "Get",
     "RelativePath": "Book_Type",
@@ -87,7 +185,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.data.Book_Type, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.Entities.Book_Type, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,7 +205,7 @@
     "Parameters": [
       {
         "Name": "bookType",
-        "Type": "LIBRARY.data.Book_Type",
+        "Type": "LIBRARY.Entities.Book_Type",
         "IsRequired": true
       }
     ],
@@ -123,13 +221,13 @@
     "Parameters": [
       {
         "Name": "bookType",
-        "Type": "LIBRARY.data.Book_Type",
+        "Type": "LIBRARY.Entities.Book_Type",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.data.Book_Type, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.Entities.Book_Type, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -171,7 +269,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "LIBRARY.data.Book_Type",
+        "Type": "LIBRARY.Entities.Book_Type",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -197,7 +295,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "LIBRARY.data.Book",
+        "Type": "LIBRARY.Entities.Book",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -206,26 +304,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "LIBRARY.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[LIBRARY.WeatherForecast, LIBRARY, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
   }
 ]
