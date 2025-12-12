@@ -1,71 +1,53 @@
 ﻿using LIBRARY.data;
 using LIBRARY.Entities;
+using LIBRARY.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LIBRARY.Controllers
 {
-    public class BookController : ControllerBase
+    [ApiController]
+    [Route("[controller]")]
+    public class BookController(BookServices bookservices) : ControllerBase
     {
-
-        private readonly ApplicationDBcontext _dbcontext;
-        public BookController(ApplicationDBcontext dbcontext)
-        {
-            _dbcontext = dbcontext;
-        }
         [HttpGet]
         [Route("")]
         public ActionResult<IEnumerable<Book>> Get()
         {
-            var x = _dbcontext.Set<Book>().ToList();
-            if (x is null) return NotFound();
-            return Ok(x);
+            var result = bookservices.Get();
+            if (result is null) return NotFound();
+            return Ok(result);
         }
         [HttpGet]
         [Route("id")]
         public ActionResult<Book> GetById(int id)
         {
-            var x = _dbcontext.Set<Book>().Find(id);
-            if (x is null) return NotFound();
-            return Ok(x);
+            var result = bookservices.GetByid(id);
+            if (result is null) return NotFound();
+            return Ok(result);
         }
         [HttpPost]
         [Route("")]
-        public ActionResult CreateBookType([FromBody]Book book)
+        public ActionResult CreateBook([FromBody]Book book)
         {
-            var test = _dbcontext.Set<Book_Type>().Find(book.Id_Type);
-            if (test is null) return NotFound();
-            _dbcontext.Set<Book>().Add(book);
-            test.Num_books=test.Num_books+1;
-            _dbcontext.SaveChanges();
+            var result=bookservices.CreateBook(book);
+            if (!result)return NotFound("The type of book is not exists");
             return Ok();
         }
         [HttpPut]
         [Route("")]
-        public ActionResult<IEnumerable<Book>> UpdateBookType([FromBody]Book book)
+        public ActionResult<IEnumerable<Book>> UpdateBook([FromBody]Book book)
         {
-            var test = _dbcontext.Set<Book_Type>().Find(book.Id_Type);
-            var x = _dbcontext.Set<Book>().Find(book.Id_Book);
-            if (test is null|| x is null) return NotFound();
-            x.Description=book.Description;
-            x.Title=book.Title;
-            x.Author=book.Author;
-            x.Id_Book=book.Id_Book;
-            x.Id_Type=book.Id_Type;
-            test.Num_books=test.Num_books+1;
-            _dbcontext.SaveChanges();
-            return Ok(x);
+            var result=bookservices.UpdateBook(book);
+            if (result is null) return NotFound("The book is not exists");
+            return Ok(result);
         }
         [HttpDelete]
         [Route("")]
-        public ActionResult DeleteBookType(int id)
+        public ActionResult DeleteBook(int id)
         {
-            var x = _dbcontext.Set<Book>().Find(id);
-            if (x is null) return NotFound();
-            var z = _dbcontext.Set<Book_Type>().Find(x.Id_Type);
-            _dbcontext.Remove(x);
-            z.Num_books=z.Num_books-1;
-            _dbcontext.SaveChanges();
-            return Ok(x);
+            var result = bookservices.DeleteBook(id);
+            if (!result) return NotFound();
+            return Ok();
         }
     }
 }

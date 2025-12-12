@@ -12,7 +12,7 @@ using System.Text;
 
 namespace LIBRARY.Services
 {
-    public class AuthService(ApplicationDBcontext context, IConfiguration configuration) : IAuthService
+    public class AuthService(ApplicationDBcontext context, IConfiguration configuration)
     {
         public async Task<TokenResponseDto?> LoginAsync(UserDto request)
         {

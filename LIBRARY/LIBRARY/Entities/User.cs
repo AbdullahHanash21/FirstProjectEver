@@ -1,4 +1,6 @@
-﻿namespace LIBRARY.Entities
+﻿using Microsoft.AspNetCore.Identity;
+
+namespace LIBRARY.Entities
 {
     public class User
     {

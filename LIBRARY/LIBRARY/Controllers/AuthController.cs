@@ -8,7 +8,7 @@ namespace JwtAuthDotNet9.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController(IAuthService authService) : ControllerBase
+    public class AuthController(AuthService authService) : ControllerBase
     {
         [HttpPost("register")]
         public async Task<ActionResult<User>> Register(UserDto request)
@@ -42,11 +42,10 @@ namespace JwtAuthDotNet9.Controllers
 
         [Authorize]
         [HttpGet]
-        public IActionResult AuthenticatedOnlyEndpoint()
+        public IActionResult AuthenticationOnlyEndpoint()
         {
             return Ok("You are authenticated!");
         }
-
         [Authorize(Roles = "Admin")]
         [HttpGet("admin-only")]
         public IActionResult AdminOnlyEndpoint()

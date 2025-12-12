@@ -7,7 +7,7 @@ namespace LIBRARY.Entities
         public int Id_Type { get; set; }
         [Required, MaxLength(20)]
 
-        public string Name_Type { get; set; }
+        public string? Name_Type { get; set; }
         public  int Num_books {get;set;}
     }
 }

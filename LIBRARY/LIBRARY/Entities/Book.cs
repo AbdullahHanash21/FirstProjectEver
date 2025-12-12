@@ -7,13 +7,13 @@ namespace LIBRARY.Entities
     {
         public int Id_Book { get; set; }
         [Required,MaxLength(20)]
-        public string Title { get; set; }
+        public string? Title { get; set; }
         [Required, MaxLength(20)]
 
-        public string Description { get; set; }
+        public string? Description { get; set; }
         [Required, MaxLength(20)]
 
-        public string Author { get; set; }
+        public string? Author { get; set; }
 
         public int Id_Type {  get; set; }
     }
